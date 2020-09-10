@@ -1,0 +1,302 @@
+object CustomerAddForm: TCustomerAddForm
+  Left = 1307
+  Top = 134
+  Width = 588
+  Height = 738
+  Caption = #44256#44061' '#52628#44032
+  Color = clBtnFace
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -16
+  Font.Name = #44404#47548
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 16
+  object nameLabel: TLabel
+    Left = 48
+    Top = 200
+    Width = 69
+    Height = 16
+    Caption = #44256#44061' '#51060#47492
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = #44404#47548
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 104
+    Top = 264
+    Width = 13
+    Height = 16
+    Caption = 'ID'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = #44404#47548
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 304
+    Top = 264
+    Width = 69
+    Height = 16
+    Caption = #48708#48128' '#48264#54840
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = #44404#47548
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 69
+    Top = 328
+    Width = 48
+    Height = 16
+    Caption = #51060#47700#51068
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = #44404#47548
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 312
+    Top = 200
+    Width = 32
+    Height = 16
+    Caption = #49457#48324
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = #44404#47548
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 9
+    Top = 392
+    Width = 108
+    Height = 16
+    Caption = #50672#46973#52376'('#54648#46300#54256')'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = #44404#47548
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 41
+    Top = 448
+    Width = 76
+    Height = 16
+    Caption = #50672#46973#52376'('#51665')'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = #44404#47548
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 76
+    Top = 504
+    Width = 32
+    Height = 16
+    Caption = #51452#49548
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = #44404#47548
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 48
+    Top = 560
+    Width = 69
+    Height = 16
+    Caption = #49345#49464' '#51452#49548
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = #44404#47548
+    Font.Style = []
+    ParentFont = False
+  end
+  object CustomerNameEdit: TEdit
+    Left = 136
+    Top = 192
+    Width = 145
+    Height = 24
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = #44404#47548
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+  end
+  object CustomerIDEdit: TEdit
+    Left = 136
+    Top = 256
+    Width = 145
+    Height = 24
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = #44404#47548
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object CustomerPasswordEdit: TEdit
+    Left = 384
+    Top = 256
+    Width = 145
+    Height = 24
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = #44404#47548
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+  object CustomerEmailEdit: TEdit
+    Left = 136
+    Top = 320
+    Width = 145
+    Height = 24
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = #44404#47548
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+  end
+  object RadioButton1: TRadioButton
+    Left = 384
+    Top = 200
+    Width = 57
+    Height = 17
+    Caption = #45224
+    TabOrder = 4
+  end
+  object RadioButton2: TRadioButton
+    Left = 456
+    Top = 200
+    Width = 49
+    Height = 17
+    Caption = #50668
+    TabOrder = 5
+  end
+  object CustomerPhoneEdit: TEdit
+    Left = 136
+    Top = 384
+    Width = 153
+    Height = 24
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = #44404#47548
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 6
+  end
+  object CustomerHomeNumberEdit: TEdit
+    Left = 136
+    Top = 440
+    Width = 153
+    Height = 24
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = #44404#47548
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 7
+  end
+  object CustomerAddress1Edit: TEdit
+    Left = 136
+    Top = 496
+    Width = 337
+    Height = 24
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = #44404#47548
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 8
+  end
+  object CustomerAddress2Edit: TEdit
+    Left = 136
+    Top = 552
+    Width = 337
+    Height = 24
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = #44404#47548
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 9
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 572
+    Height = 129
+    Align = alTop
+    TabOrder = 10
+    object Label10: TLabel
+      Left = 24
+      Top = 32
+      Width = 122
+      Height = 27
+      Caption = #44256#44061' '#52628#44032
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -27
+      Font.Name = #44404#47548
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object Button1: TButton
+      Left = 344
+      Top = 64
+      Width = 89
+      Height = 49
+      Caption = #51200#51109
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = #44404#47548
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 0
+    end
+    object Button2: TButton
+      Left = 456
+      Top = 64
+      Width = 89
+      Height = 49
+      Caption = #52712#49548
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = #44404#47548
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 1
+    end
+  end
+end
